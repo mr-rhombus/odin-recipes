@@ -3,14 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" href="./img/favicon-32x32.png">
   <title>Rhombus Recipes</title>
 </head>
 <body>
-  <h1>Odin Recipes</h1>
-  <ul>
-    <li><a href="./recipes/carbonara.html">Carbonara</a></li>
-    <li><a href="./recipes/stir-fry.html">Stir Fry</a></li>
-    <li><a href="./recipes/chili.html">Chili</a></li>
-  </ul>
+  <div class="centered-main">
+    <div class="navbar">
+      <a href="../index.html">🏠 Home</a>
+      <a href="../recipes/carbonara.html">🍝 Carbonara</a>
+      <a href="../recipes/stir-fry.html">🍲 Stir Fry</a>
+      <a href="../recipes/chili.html">🌶️ Chili</a>
+    </div>
+  
+    <div class="content">
+      <h1>Odin Recipes</h1>
+      
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae ipsa doloremque corporis beatae. Sit quisquam magnam, eius aliquam iusto quia nam ipsam adipisci dicta consequuntur architecto autem veritatis repudiandae?</p>
+      
+      <h2>Recipes</h2>
+      <div class="recipes-grid">
+        <a href="./recipes/carbonara.html">
+          <div class="nav-card">
+            <img src="./img/carbonara.png" alt="A bowl of carbonara pasta">
+          </div>
+          <p>Carbonara</p>
+        </a>
+        <a href="./recipes/stir-fry.html">
+          <div class="nav-card">
+            <img src="./img/stir-fry.png" alt="A skillet with stir fry">
+          </div>
+          <p>Stir Fry</p>
+        </a>
+        <a href="./recipes/chili.html">
+          <div class="nav-card">
+            <img src="./img/chili.png" alt="A bowl of chili">
+          </div>
+          <p>Chili</p>
+        </a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
